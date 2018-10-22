@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtnull7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtdanhsachbantang2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BẢNG HIỂN THỊ CÁC BÀN Ở TẦNG 2" />
+
+    <TextView
+        android:id="@+id/txtnull8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+
+
+            <TextView
+                android:id="@+id/lblban13"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 13" />
+
+            <TextView
+                android:id="@+id/lblban14"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 14" />
+
+            <TextView
+                android:id="@+id/lblban15"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 15" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lblban16"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 16" />
+
+            <TextView
+                android:id="@+id/lblban17"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 17" />
+
+            <TextView
+                android:id="@+id/lblban18"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 18" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lblban19"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 19" />
+
+            <TextView
+                android:id="@+id/lblban20"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 20" />
+
+            <TextView
+                android:id="@+id/lblban21"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 21" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lblban22"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 22" />
+
+            <TextView
+                android:id="@+id/lblban23"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 23" />
+
+            <TextView
+                android:id="@+id/lblban24"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:background="@drawable/ban"
+                android:text="BÀN 24" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_table_options">
+        <item>Bàn 1</item>
+        <item>Bàn 2</item>
+        <item>Bàn 3</item>
+        <item>Bàn 4</item>
+        <item>Bàn 5</item>
+        <item>Bàn 6</item>
+        <item>Bàn 7</item>
+        <item>Bàn 8</item>
+        <item>Bàn 9</item>
+        <item>Bàn 10</item>
+        <item>Bàn 11</item>
+        <item>Bàn 12</item>
+        <item>Bàn 13</item>
+        <item>Bàn 14</item>
+        <item>Bàn 15</item>
+        <item>Bàn 16</item>
+        <item>Bàn 17</item>
+        <item>Bàn 18</item>
+        <item>Bàn 19</item>
+        <item>Bàn 20</item>
+        <item>Bàn 21</item>
+        <item>Bàn 22</item>
+        <item>Bàn 23</item>
+        <item>Bàn 24</item>
+    </string-array>
+</resources>

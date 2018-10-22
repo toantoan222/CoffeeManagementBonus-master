@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050F1A"
+    tools:context=".DangNhap"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/gifTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/giphy"
+        app:layout_constraintBottom_toTopOf="@+id/txttendangnhap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttendangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tên đăng nhập"
+        android:textColor="#ababab"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/edtendangnhap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifTextView" />
+
+    <EditText
+        android:id="@+id/edtendangnhap"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/loginbox"
+        android:textAlignment="center"
+        android:textColor="#050f1a"
+        app:layout_constraintBottom_toTopOf="@+id/txtmatkhau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttendangnhap" />
+
+    <TextView
+        android:id="@+id/txtmatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Mật khẩu"
+        android:textColor="#ababab"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/edmatkhau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtendangnhap" />
+
+    <EditText
+        android:id="@+id/edmatkhau"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/loginbox"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#050f1a"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmatkhau" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/button_dangnhap"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Đăng nhập"
+        android:textColor="#050f1a"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edmatkhau" />
+
+
+</android.support.constraint.ConstraintLayout>
